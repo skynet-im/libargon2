@@ -40,8 +40,5 @@ Java_de_vectordata_libargon2_Argon2_hash0(JNIEnv *env, jobject instance, jint t_
     env->ReleaseByteArrayElements(pwd_, pwd, 0);
     env->ReleaseByteArrayElements(salt_, salt, 0);
 
-    env->ReleaseByteArrayElements(pwd_, pwd, 0);
-    env->ReleaseByteArrayElements(salt_, salt, 0);
-
     return arr;
 }
